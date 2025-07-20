@@ -7,6 +7,7 @@ import PyPDF2
 import replicate
 import threading
 import re
+from config import REPLICATE_API_TOKEN, GPT_NANO_MODEL 
 
 from PySide6.QtWidgets import (
     QApplication, QMainWindow, QWidget, QVBoxLayout, QHBoxLayout, QGridLayout,
@@ -16,7 +17,7 @@ from PySide6.QtWidgets import (
 from PySide6.QtCore import Qt, Signal, QObject, QThread
 
 # --- Replicate API Configuration ---
-REPLICATE_API_TOKEN = "REPLICATE_API_TOKEN_REMOVED"  # Remember to change this
+
 
 # Fixed model
 GPT_NANO_MODEL = "openai/gpt-4.1-nano"
