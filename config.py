@@ -1,0 +1,3 @@
+REPLICATE_API_TOKEN = "r8_1Qjd071UJATGVeOtC...B3DxCKE"
+GPT_NANO_MODEL = "openai/gpt-4.1-nano"
+
